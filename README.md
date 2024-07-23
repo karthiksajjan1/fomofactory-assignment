@@ -22,4 +22,8 @@ Assignment submitted by Karthik Sajjan
 4. Open `http://localhost:3000` in your browser.
 
 
+![Screenshot](1 _change_crypto_ui.png)
+![Screenshot](2_crypto_price_ui.png)
+![Screenshot](3_mongodb.png)
+
 
