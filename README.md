@@ -1,43 +1,25 @@
-# Stock Price Dashboard
+## Fomo-Factory-Assignment
 
-Mini-Website for Real-Time Stock Price Data
+# Mini-Website for Real-Time Crypto Price Data
 
 Assignment submitted by Karthik Sajjan
 
-## Backend
-
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/stock-price-dashboard.git
-Navigate to the Backend Directory:
+   git clone https://github.com/karthiksajjan1/fomofactory-assignment.git
+ 
+## Backend
 
-cd backend
-Install Dependencies:
+1. Navigate to the backend directory 'cd backend' and run `npm install`.
+2. Set Up MongoDB: Ensure MongoDB is installed and running.
+3. Update the MongoDB connection details in src/app.js if necessary.
+4. Run the Backend Application: 'npm start'
 
-npm install
-Set Up MongoDB:
+## Frontend
 
-Ensure MongoDB is installed and running.
-Update the MongoDB connection details in src/utils/cronJobs.ts if necessary.
-Run the Backend Application:
-
-npm start
-This will start the server on port 5001 by default.
-
-Frontend
-Navigate to the Frontend Directory:
-
-cd frontend
-Install Dependencies:
+1. Navigate to the backend directory 'cd frontend' and run `npm install`.
+2. Run `npm run dev` to start frontend application.
+4. Open `http://localhost:3000` in your browser.
 
 
-npm install
-Run the Frontend Application:
 
-npm run dev
-This will start the React application. Open http://localhost:3000 in your browser.
-
-Notes
-Polling Intervals: The backend fetches prices every 5 seconds. Adjust the interval in src/utils/cronJobs.ts if needed.
-API Endpoints: Ensure that the API endpoints in the backend (src/utils/cronJobs.ts) and frontend (src/components/StockPriceTable.tsx) match.
-MongoDB: Ensure MongoDB is running before starting the backend server.
