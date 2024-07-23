@@ -2,7 +2,7 @@
 
 Mini-Website for Real-Time Stock Price Data
 
-Assignment submitted by [Your Name]
+Assignment submitted by Karthik Sajjan
 
 ## Backend
 
